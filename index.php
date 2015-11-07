@@ -87,6 +87,38 @@
 
 <body>
 
+	<div class="container-fluid defaultPageContainer">
+
+		<div class="row">
+
+			<div class="col-xs-3">
+
+				<br>
+
+				<img src="/images/nevada-n.jpg" class="img-responsive" alt="UNR Logo">
+
+			</div>
+
+			<div class="col-xs-6">
+
+
+				<h4> Welcome to the Nevada Health Statistics Portal (NHSP).</h4>
+
+
+			</div>
+
+			<div class="col-xs-3">
+
+				<br>
+
+				<img src="/images/acmLogo.png" class="img-responsive" alt="ACM Logo">
+
+			</div>
+
+		</div>
+
+	</div>
+
 </body>
 
 </html>
