@@ -17,6 +17,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
 	<!-- Optional theme
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     -->
@@ -35,90 +38,79 @@
 
 </head>
 
-<nav class="navbar navbar-default">
-
-	<div class="container">
-
-		<div class="navbar-header">
-
-			<a href="/" class="navbar-brand">
-				UNR ACM
-			</a>
-
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
-
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-
-			</button>
-
-		</div>
-
-		<div class="collapse navbar-collapse" id="collapsemenu">
-
-			<ul class="nav navbar-nav">
-
-				<li>
-					<a href="/">Home</a>
-				</li>
-
-				<li>
-					<a href="/events.php">Events</a>
-				</li>
-
-				<li>
-					<a href="/officers.php">Officers</a>
-				</li>
-
-				<li>
-					<a href="/sponsors.php">Sponsors</a>
-				</li>
-
-			</ul>
-
-		</div>
 
 
+<?php
 
-	</div>
+include 'navbar.php';
 
-</nav>
+include 'header.php';
+
+?>
 
 <body>
 
-	<div class="container-fluid defaultPageContainer">
+	<br>
+
+	<div class="container-fluid">
 
 		<div class="row">
 
-			<div class="col-xs-3">
+			<div class="col-xs-12">
 
-				<br>
+				<?php
 
-				<img src="/images/nevada-n.jpg" class="img-responsive" alt="UNR Logo">
+				include 'homeCarousel.php';
+
+				?>
+			</div>
+
+		</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+
+			<div class="col-xs-4">
+
+				<?php
+
+				include 'mailChimpForm.php';
+
+				?>
 
 			</div>
 
-			<div class="col-xs-6">
-
-
-				<h4> Welcome to the Nevada Health Statistics Portal (NHSP).</h4>
+			<div class="col-xs-3">
 
 
 			</div>
 
-			<div class="col-xs-3">
+			<div class="col-xs-5">
 
-				<br>
+				<?php
 
-				<img src="/images/acmLogo.png" class="img-responsive" alt="ACM Logo">
+				include 'facebook.php';
 
+				?>
 			</div>
 
 		</div>
 
 	</div>
 
+	<br>
+
+	<br>
+
 </body>
+
+<?php
+
+
+include 'footer.php';
+
+?>
 
 </html>
