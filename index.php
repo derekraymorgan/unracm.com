@@ -2,57 +2,23 @@
 
 <html lang="en">
 
-<head>
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="google-site-verification" content="FAFmCgvnSep5s_mzYMANvyELMKnjwi19jKSxbtxCb-s" />
-
-	<title>UNR ACM</title>
-
-
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="main.css">
-
-	<!-- Optional theme
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    -->
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-</head>
-
-
-
 <?php
 
-include 'navbar.php';
+include 'head.php';
 
-include 'header.php';
+include 'navbar.php';
 
 ?>
 
 <body>
 
-	<br>
+	<?php
 
-	<div class="container-fluid">
+	include 'header.php';
+
+	?>
+
+	<div class="container-fluid mainContainer">
 
 		<div class="row">
 
@@ -63,38 +29,87 @@ include 'header.php';
 				include 'homeCarousel.php';
 
 				?>
+
 			</div>
 
 		</div>
 
 		<br>
-		<br>
 
 		<div class="row">
 
-			<div class="col-xs-4">
+			<div class="col-sm-12 col-md-4">
 
-				<?php
+				<div class="thumbnail">
 
-				include 'mailChimpForm.php';
+					<br>
 
-				?>
+					<img src="images/fbLogo.png" alt="">
+
+					<div class="caption">
+
+						<h3>ACM Facebook</h3>
+
+						<p>Go to our Facebook page for cool stuff</p>
+
+
+					</div>
+
+				</div>
 
 			</div>
 
-			<div class="col-xs-3">
+			<div class="col-sm-12 col-md-4">
+
+				<div class="thumbnail">
+
+					<br>
+
+					<a href="signup.php">
+
+						<img src="images/BecomeAMemberButton.png" alt="">
+					</a>
+
+					<br>
+
+					<div class="caption">
+
+						<h3>Join the ACM today!</h3>
+
+						<p>Both UNR and National ACM are great resources.</p>
+
+						<p>
+							<a href="signup.php" class="btn btn-primary">Join Now!</a> <a href="about.php" class="btn btn-default">More Info</a>
+
+						</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-12 col-md-4">
+
+				<div class="thumbnail">
+
+					<br>
+
+					<img src="images/calendarIcon.png" alt="">
+
+					<div class="caption">
+
+						<h3>Checkout the ACM Events</h3>
+
+						<p>The ACM holds many fun and benefitial events for it's members.</p>
+
+					</div>
+
+				</div>
 
 
 			</div>
 
-			<div class="col-xs-5">
-
-				<?php
-
-				include 'facebook.php';
-
-				?>
-			</div>
 
 		</div>
 
@@ -102,15 +117,13 @@ include 'header.php';
 
 	<br>
 
-	<br>
+	<?php
 
+	include 'footer.php';
+
+	?>
 </body>
 
-<?php
 
-
-include 'footer.php';
-
-?>
 
 </html>
