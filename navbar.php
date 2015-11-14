@@ -4,7 +4,7 @@
 
 		<div class="navbar-header">
 
-			<a href="/" class="navbar-brand">
+			<a href="index.php" class="navbar-brand">
 				UNR ACM
 			</a>
 
@@ -23,19 +23,19 @@
 			<ul class="nav navbar-nav">
 
 				<li>
-					<a href="/">Home</a>
+					<a href="index.php">Home</a>
 				</li>
 
 				<li>
-					<a href="/events.php">Events</a>
+					<a href="events.php">Events</a>
 				</li>
 
 				<li>
-					<a href="/officers.php">Officers</a>
+					<a href="officers.php">Officers</a>
 				</li>
 
 				<li>
-					<a href="/sponsors.php">Sponsors</a>
+					<a href="sponsors.php">Sponsors</a>
 				</li>
 
 			</ul>

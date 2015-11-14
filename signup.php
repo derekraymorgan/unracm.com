@@ -8,106 +8,49 @@ include 'head.php';
 
 include 'navbar.php';
 
-include 'header.php';
-
 ?>
 
 <body>
+
+<?php
+
+include 'header.php';
+
+?>
 
 <div class="container-fluid mainContainer">
 
 	<div class="row">
 
-	</div>
+		<div class="col-xs-12 col-md-6">
 
-	<br>
+			<?php
 
-	<div class="row">
+			include 'mailChimpForm.php';
 
-		<div class="col-xs-4">
-
-			<div class="thumbnail">
-
-				<img href="signup.php" src="images/BecomeAMemberButton.png" alt="">
-
-				<div class="caption">
-
-					<h3>Join the ACM today!</h3>
-
-					<p>Both UNR and National ACM are great resources.</p>
-
-					<p>
-						<a href="signup.php" class="btn btn-primary">Join Now!</a> <a href="/about.php" class="btn btn-default">More Info</a>
-					</p>
-
-				</div>
-
-			</div>
+			?>
 
 		</div>
 
-		<div class="col-xs-4">
+		<div id="wordCloud" class="col-xs-12 col-md-6 thumbnail">
 
-			<div class="thumbnail">
-
-				<img src="http://placehold.it/800x500" alt="">
-
-				<div class="caption">
-
-					<h3>Feature Label</h3>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-					<p>
-						<a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-
-					</p>
-
-				</div>
-
-			</div>
-
-
-		</div>
-
-		<div class="col-xs-4">
-
-			<div class="thumbnail">
-
-				<img src="http://placehold.it/800x500" alt="">
-
-				<div class="caption">
-
-					<h3>Feature Label</h3>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-					<p>
-						<a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-
-					</p>
-
-				</div>
-
-			</div>
+			<img src="images/wordCloud.png" alt="">
 
 		</div>
 
 	</div>
+
 
 </div>
 
 <br>
 
-<br>
-
-</body>
-
 <?php
-
 
 include 'footer.php';
 
 ?>
+
+</body>
 
 </html>

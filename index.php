@@ -36,11 +36,9 @@ include 'navbar.php';
 
 		<br>
 
-		<div class="row">
+		<div class="row row-eq-height">
 
-			<div class="col-sm-12 col-md-4">
-
-				<div class="thumbnail">
+			<div class="col-sm-12 col-md-4 thumbnail">
 
 					<br>
 
@@ -55,13 +53,9 @@ include 'navbar.php';
 
 					</div>
 
-				</div>
-
 			</div>
 
-			<div class="col-sm-12 col-md-4">
-
-				<div class="thumbnail">
+			<div class="col-sm-12 col-md-4 thumbnail">
 
 					<br>
 
@@ -85,15 +79,15 @@ include 'navbar.php';
 
 					</div>
 
-				</div>
 
 			</div>
 
-			<div class="col-sm-12 col-md-4">
+			<div class="col-sm-12 col-md-4 thumbnail">
 
-				<div class="thumbnail">
 
-					<br>
+				<br>
+
+				<a href="events.php">
 
 					<img src="images/calendarIcon.png" alt="">
 
@@ -105,13 +99,13 @@ include 'navbar.php';
 
 					</div>
 
-				</div>
-
+				</a>
 
 			</div>
 
 
 		</div>
+
 
 	</div>
 
@@ -122,8 +116,7 @@ include 'navbar.php';
 	include 'footer.php';
 
 	?>
+
 </body>
-
-
 
 </html>
