@@ -13,6 +13,11 @@ header
 
 }
 
+.navbar
+{
+    margin: 0;
+}
+
 #headerText
 {
     font-size: 110%;
@@ -55,6 +60,10 @@ footer
     border: double black 1px;
 }
 
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
 
 /* Small */
 @media(min-width:768px)
@@ -90,6 +99,7 @@ footer
     }
 
 
+
 }
 
 .row-eq-height {
@@ -102,5 +112,27 @@ footer
 #wordCloud
 {
     border: none;
+}
+
+/* Responsive iFrame */
+
+.responsive-iframe-container
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 

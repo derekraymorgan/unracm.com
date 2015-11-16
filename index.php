@@ -95,7 +95,7 @@ include 'navbar.php';
 
 						<h3>Checkout the ACM Events</h3>
 
-						<p>The ACM holds many fun and benefitial events for it's members.</p>
+						<p>The ACM holds many fun and beneficial events for it's members.</p>
 
 					</div>
 
@@ -103,9 +103,7 @@ include 'navbar.php';
 
 			</div>
 
-
 		</div>
-
 
 	</div>
 
