@@ -22,7 +22,23 @@ include 'header.php';
 
 	<div class="row">
 
-		<div class="col-xs-12">
+		<div class="col-sm-12 col-md-4 thumbnail">
+
+			<br>
+
+			<img src="images/calendarIcon.png" alt="">
+
+			<div class="caption">
+
+				<h3>Derek Morgan</h3>
+
+				<p>Bad Ass Mofo</p>
+
+			</div>
+
+		</div>
+
+		<div class="col-sm-4">
 
 			<p> Coming Soon </p>
 
