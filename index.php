@@ -36,9 +36,9 @@ include 'navbar.php';
 
 		<br>
 
-		<div class="row row-eq-height">
+		<div class="row">
 
-			<div class="col-sm-12 col-md-4 thumbnail">
+			<div class="col-xs-12 col-md-4 thumbnail homePageSection">
 
 					<br>
 
@@ -50,18 +50,18 @@ include 'navbar.php';
 
 						<p>Go to our Facebook page for cool stuff</p>
 
-
 					</div>
 
 			</div>
 
-			<div class="col-sm-12 col-md-4 thumbnail">
+			<div class="col-xs-12 col-md-4 thumbnail homePageSection">
 
 					<br>
 
 					<a href="signup.php">
 
 						<img src="images/BecomeAMemberButton.png" alt="">
+
 					</a>
 
 					<br>
@@ -82,8 +82,7 @@ include 'navbar.php';
 
 			</div>
 
-			<div class="col-sm-12 col-md-4 thumbnail">
-
+			<div class="col-xs-12 col-md-4 thumbnail homePageSection">
 
 				<br>
 

@@ -49,8 +49,7 @@ include 'header.php';
 			<br>
 			<br>
 
-			<div class="fb-page center-block" data-href="https://www.facebook.com/UNRACM" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/UNRACM"><a href="https://www.facebook.com/UNRACM">UNR ACM</a></blockquote></div></div>
-
+			<div class="fb-page" data-href="https://www.facebook.com/UNRACM" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/UNRACM"><a href="https://www.facebook.com/UNRACM">UNR ACM</a></blockquote></div></div>
 		</div>
 
 	</div>
