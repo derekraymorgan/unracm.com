@@ -42,7 +42,11 @@ include 'navbar.php';
 
 					<br>
 
-					<img src="images/fbLogo.png" alt="">
+					<a href="https://www.facebook.com/UNRACM">
+
+						<img src="images/fbLogo.png" alt="">
+
+					</a>
 
 					<div class="caption">
 

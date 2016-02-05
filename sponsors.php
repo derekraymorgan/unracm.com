@@ -22,9 +22,55 @@ include 'header.php';
 
 	<div class="row">
 
-		<div class="col-xs-12">
+		<div class="col-xs-6 thumbnail">
 
-			<p> Coming Soon </p>
+			<a href="signup.php">
+
+				<img src="images/BecomeAMemberButton.png" alt="">
+
+			</a>
+
+		</div>
+
+		<div class="col-xs-6 thumbnail">
+
+			<a href="signup.php">
+
+				<img src="images/BecomeAMemberButton.png" alt="">
+
+			</a>
+
+		</div>
+
+		<div class="col-xs-6 thumbnail">
+
+			<a href="signup.php">
+
+				<img src="images/BecomeAMemberButton.png" alt="">
+
+			</a>
+
+		</div>
+
+		/*
+		Trinity applied internet
+		Intuit
+		SNC
+		Google
+		IGT
+		RedTeal
+		Microsoft
+		Marketing Evolution
+		Elevate Blue
+		*/
+
+		<div class="col-xs-6 thumbnail">
+
+			<a href="signup.php">
+
+				<img src="images/BecomeAMemberButton.png" alt="">
+
+			</a>
 
 		</div>
 
